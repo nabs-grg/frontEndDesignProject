@@ -1,0 +1,29 @@
+// colors
+
+$black: #000;
+$white: #fff;
+$red: #af272f;
+$blue: #282832;
+$cream: #F2EFEB;
+$cream2: #F2EFEB - 100;
+
+
+
+.grad {
+	background-color : $cream;
+	background-image : -webkit-gradient(linear, left top, eft bottom, from($cream), to($cream2));
+	background-image : -webkit-linear-gradient(top, $cream, $cream2);
+	background-image : -moz-linear-gradient(top, $cream, $cream2);
+	background-image : -ms-linear-gradient(top, $cream, $cream2);
+	background-image : -o-linear-gradient(top, $cream, $cream2);
+	height : 500px;
+	#hello {
+	color : $red;
+	font-size : 25px;
+	font-style : bold;
+}
+}
+
+p {
+	color: $red;
+}

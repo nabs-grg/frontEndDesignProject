@@ -1,0 +1,17 @@
+.grad {
+  background-color: #F2EFEB;
+  background-image: -webkit-gradient(linear, left top, eft bottom, from(#F2EFEB), to(#8e8b87));
+  background-image: -webkit-linear-gradient(top, #F2EFEB, #8e8b87);
+  background-image: -moz-linear-gradient(top, #F2EFEB, #8e8b87);
+  background-image: -ms-linear-gradient(top, #F2EFEB, #8e8b87);
+  background-image: -o-linear-gradient(top, #F2EFEB, #8e8b87);
+  height: 500px; }
+  .grad #hello {
+    color: #af272f;
+    font-size: 25px;
+    font-style: bold; }
+
+p {
+  color: #af272f; }
+
+/*# sourceMappingURL=style.css.map */
