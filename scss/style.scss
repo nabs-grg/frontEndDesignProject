@@ -1,29 +1,34 @@
-// colors
+$primary-margin: 10px;
 
-$black: #000;
-$white: #fff;
-$red: #af272f;
-$blue: #282832;
-$cream: #F2EFEB;
-$cream2: #F2EFEB - 100;
-
-
-
-.grad {
-	background-color : $cream;
-	background-image : -webkit-gradient(linear, left top, eft bottom, from($cream), to($cream2));
-	background-image : -webkit-linear-gradient(top, $cream, $cream2);
-	background-image : -moz-linear-gradient(top, $cream, $cream2);
-	background-image : -ms-linear-gradient(top, $cream, $cream2);
-	background-image : -o-linear-gradient(top, $cream, $cream2);
-	height : 500px;
-	#hello {
-	color : $red;
-	font-size : 25px;
-	font-style : bold;
-}
+#search-location {
+	margin-bottom: $primary-margin;
+	margin-top: $primary-margin;
 }
 
-p {
-	color: $red;
+#btn-search-location {
+	border-radius: 5px;
 }
+
+#btn-get-long-lat {
+	border-radius: 5px;
+}
+
+#map {
+	width: 100%;
+	height: 500px;
+}
+
+#address {
+	margin-bottom: $primary-margin;
+}
+
+#label-longitude {
+	margin-bottom: $primary-margin;
+	margin-top: $primary-margin;
+}
+
+#label-latitude {
+	margin-bottom: $primary-margin;
+	margin-top: $primary-margin;
+}
+

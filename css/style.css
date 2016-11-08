@@ -1,17 +1,26 @@
-.grad {
-  background-color: #F2EFEB;
-  background-image: -webkit-gradient(linear, left top, eft bottom, from(#F2EFEB), to(#8e8b87));
-  background-image: -webkit-linear-gradient(top, #F2EFEB, #8e8b87);
-  background-image: -moz-linear-gradient(top, #F2EFEB, #8e8b87);
-  background-image: -ms-linear-gradient(top, #F2EFEB, #8e8b87);
-  background-image: -o-linear-gradient(top, #F2EFEB, #8e8b87);
-  height: 500px; }
-  .grad #hello {
-    color: #af272f;
-    font-size: 25px;
-    font-style: bold; }
+#search-location {
+  margin-bottom: 10px;
+  margin-top: 10px; }
 
-p {
-  color: #af272f; }
+#btn-search-location {
+  border-radius: 5px; }
+
+#btn-get-long-lat {
+  border-radius: 5px; }
+
+#map {
+  width: 100%;
+  height: 500px; }
+
+#address {
+  margin-bottom: 10px; }
+
+#label-longitude {
+  margin-bottom: 10px;
+  margin-top: 10px; }
+
+#label-latitude {
+  margin-bottom: 10px;
+  margin-top: 10px; }
 
 /*# sourceMappingURL=style.css.map */
