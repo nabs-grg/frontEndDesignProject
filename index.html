@@ -8,11 +8,11 @@
 	<link rel="stylesheet" type="text/css" href="./css/style.css" >
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="	sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-	</head>
 </head>
+
 <body>
 
-<div class="container">
+	<div class="container">
 	<div class="row">
 		<div class="col-xs-12">
 			<input type="email" class="form-control" id="search-location" />
@@ -28,62 +28,30 @@
 	<hr />
 
 	<div class="row">
-	<div class="col-xs-12">
-     <h3> Enter an adress and press the button</h3>
+		<div class="col-xs-12">
+	 	<h3> Enter an adress and press the button</h3>
 
-    <input id="address" class="form-control" type="text" placeholder="Enter address here" />
-    <button class="btn btn-primary" id="btn-get-long-lat">Get Lat Long</button>
+		<input id="address" class="form-control" type="text" placeholder="Enter address here" />
+		<button class="btn btn-primary" id="btn-get-long-lat">Get Lat Long</button>
 
-    <div>
-        <label id="label-latitude">Latitude: </label>
-            <p id="latitude"></p> 
-        
-        <label id="label-longitude">Longitude: </label>
-            <p id="longitude"></p>
-        
-    </div>
-    </div>
-</div>
-
-			<form class="form-horizontal">
-			<fieldset>
-
-			<!-- Form Name -->
-			<legend>Add Your Place</legend>
-
-			<!-- Text input-->
-			<div class="control-group">
-			  <label class="control-label">Your name</label>
-			  <div class="controls">
-			    <input id="place_name" name="name" type="text" placeholder="" class="input-xlarge" required="">
-			    
-			  </div>
+			<div>
+	    		<label id="label-latitude">Latitude: </label>
+	        	<p id="latitude"></p> 
+	    
+	   			 <label id="label-longitude">Longitude: </label>
+	        	<p id="longitude"></p>
 			</div>
+			
+		</div>
+	</div>
 
-			<!-- Text input-->
-			<div class="control-group">
-			  <label class="control-label">Location</label>
-			  <div class="controls">
-			    <input id="location" name="location" type="text" placeholder="Enter a city, state or zipcode" class="input-xlarge" required="">
-			    <p class="help-block">This field will be geocoded with Google Maps API</p>
-			  </div>
-			</div>
+	<div id="instagram"></div>
 
-			<!-- Button -->
-			<div class="control-group">
-			  <label class="control-label"></label>
-			  <div class="controls">
-			    <input type="submit" id="locationBtn" name="locationBtn" class="btn btn-primary" value="Add Location">
-			  </div>
-			</div>
+	<div id="places"></div>
+	</div>
 
-			</fieldset>
-		</form>
-
-		<div id="instagram"></div>
-</div>
-
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5v_MZb1nr_oRAqeDDX63LsLulV2xrhUA&callback=initMap"></script>
+<!-- add google maps api key -->
+<script src="https://maps.googleapis.com/maps/api/js?key="></script> 
 
 </body>
 </html>
